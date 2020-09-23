@@ -130,7 +130,7 @@ public class Driver {
 			long SN = scanner.nextLong();
 			System.out.println("Please enter the price of this computer");
 			double price = scanner.nextDouble();
-			inventory[index] = new Computer(brand, model, SN, price, i);
+			inventory[index] = new Computer(brand, model, SN, price, index);
 			System.out.println("Computer #" + index + " has been added");
 			System.out.println("===================================================");
 		}	
