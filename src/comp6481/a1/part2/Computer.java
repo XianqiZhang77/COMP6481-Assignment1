@@ -7,6 +7,11 @@ public class Computer {
 	private long SN;
 	private double price;
 	private static int totalNumber = 0;
+	
+	public Computer() {
+		//default constructor
+	}
+	
 	public Computer(String brand, String model, long sN, double price, int index) {
 		this.brand = brand;
 		this.model = model;
